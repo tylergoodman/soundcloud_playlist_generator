@@ -1,0 +1,28 @@
+{
+  "name": "soundcloud_playlist_generator",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^1.7.3",
+    "split2": "^2.2.0",
+    "tslib": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "0.0.36",
+    "@types/minimist": "^1.2.0",
+    "@types/node-fetch": "^1.6.7",
+    "@types/split2": "^2.1.6",
+    "typescript": "^2.6.2"
+  }
+}
